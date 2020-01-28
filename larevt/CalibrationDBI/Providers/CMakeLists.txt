@@ -12,7 +12,8 @@ art_make(LIB_LIBRARIES
            cetlib_except
            larcorealg_Geometry
            ${ART_FRAMEWORK_SERVICES_REGISTRY}
-           ${ROOT_CORE}
+           ${ART_UTILITIES}
+	   ${ROOT_CORE}
         )
 
 install_headers()

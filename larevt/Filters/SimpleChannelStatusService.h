@@ -73,6 +73,6 @@ namespace lariov {
 } // namespace lariov
 
 DECLARE_ART_SERVICE_INTERFACE_IMPL
-  (lariov::SimpleChannelStatusService, lariov::ChannelStatusService, LEGACY)
+  (lariov::SimpleChannelStatusService, lariov::ChannelStatusService, SHARED)
 
 #endif // SIMPLECHANNELFILTERSERVICE_H
